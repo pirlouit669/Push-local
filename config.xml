@@ -101,10 +101,10 @@
     <plugin name="phonegap-plugin-push" spec="~1.8.0">
         <variable name="SENDER_ID" value="XXXXXXX" />
     </plugin>
-    <plugin name="com.phonegap.plugins.facebookconnect" source="npm">
-         <param name="APP_ID" value="204764659934740" />
-         <param name="APP_NAME" value="Connexion Facile2Soutenir" />
-     </plugin>
+<plugin name="phonegap-facebook-plugin" spec="0.12.0" source="npm">
+<param name="APP_ID" value="204764659934740" />
+<param name="APP_NAME" value="Connexion Facile2Soutenir" />
+</plugin>
     <plugin name="pushwoosh-cordova-plugin">
         <variable name="LOG_LEVEL" value="DEBUG" />
         <variable name="IOS_FOREGROUND_ALERT_TYPE" value="NONE" />
